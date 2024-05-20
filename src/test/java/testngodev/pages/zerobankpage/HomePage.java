@@ -12,9 +12,9 @@ public HomePage(){
 }
 @FindBy(id="signin_button")
 public WebElement singInButon;
-
-//merhaba Murvet hanim nasilsin .bugun neler yaptin
-//merhaba Murvet hanim nasilsin .bugun neler yaptin
+// calis ta gorelim ... ogrenelim...
 //merhaba Murvet hanim nasilsin .bugun neler yaptin
 
 }
+
+
