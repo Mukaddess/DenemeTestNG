@@ -13,7 +13,7 @@ public HomePage(){
 @FindBy(id="signin_button")
 public WebElement singInButon;
 // calis ta gorelim ... ogrenelim...
-// calis ta gorelim ... ogrenelim...
+//merhaba Murvet hanim nasilsin .bugun neler yaptin
 
 }
 
