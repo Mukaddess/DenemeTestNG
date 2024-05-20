@@ -12,6 +12,9 @@ public HomePage(){
 }
 @FindBy(id="signin_button")
 public WebElement singInButon;
-
+// calis ta gorelim ... ogrenelim...
+// calis ta gorelim ... ogrenelim...
 
 }
+
+
