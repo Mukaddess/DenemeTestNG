@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch 231">
+    <test name="Belirli Classlari calistirma">
+        <classes>
+        <class name="techproed.tests.smoke.C01_Notasyonlar"></class>
+        <class name="techproed.tests.day19_annotations.C01_Notasyonlar"></class>
+        </classes>
+
+    </test>
+</suite>
+
+
+
+        <!-- ctrl + / ile yorum satiri ekeleyebilirsiinz-->

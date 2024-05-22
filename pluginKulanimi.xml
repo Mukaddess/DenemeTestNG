@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="plugin ile olusturuldu">
+        <classes>
+            <class name="techproed.tests.smoke.C02_BeforeGroupAfterGroup"></class>
+            <class name="techproed.tests.smoke.C01_Notasyonlar"></class>
+        </classes>
+    </test>
+</suite>
+
+ <!--ctrl +alt +l  yaparak otomatik yukledik-->
+    <!--verbose hat derscelendirmeye yarar-->
+<!--preserve order =true secili iken  xml dosyasinda bulunan siraya gore testleri calistiri-->

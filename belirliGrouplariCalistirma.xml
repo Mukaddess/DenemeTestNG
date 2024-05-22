@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch 231">
+    <test name="Belirli Grouplari calistirma">
+
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+
+        <packages>
+           <!-- <package name="techproed.tests.day19_annotations"></package>-->
+            <package name="techproed.*"></package>  <!--butun  projeden gurplari calistiri hepsini calistirdik-->
+
+        </packages>
+
+    </test>
+</suite>
+
+        <!-- ctrl + / ile yorum satiri ekeleyebilirsiinz-->
