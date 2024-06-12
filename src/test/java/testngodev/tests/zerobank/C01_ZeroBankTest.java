@@ -28,7 +28,7 @@ public class C01_ZeroBankTest {
 
     @Test
     public void zeroBankTest() {
-        //1. Adresine gidin başlığın  içerdiğini test edin
+        //1. Adresine gidin başlığın Personal içerdiğini test edin
         Driver.getDriver().get(ConfigurationPropertiesReader.getProperty("zeroBankUrl"));
         Assert.assertTrue(Driver.getDriver().getTitle().contains("Personal"), "Baslik aranan kelimeyi  icermiyor. ");
         //2. Sign in butonuna basin
